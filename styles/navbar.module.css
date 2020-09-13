@@ -1,0 +1,10 @@
+.gdNavLink {
+    color: #fff !important;
+    font-weight: 800;
+}
+.gdNavLink:hover {
+    color: #1A61B1 !important;
+}
+.gdCarousel {
+    background: rgb(0, 0, 0);
+}

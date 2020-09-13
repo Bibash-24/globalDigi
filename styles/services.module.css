@@ -1,0 +1,12 @@
+.serviceBlock {
+    background-image: url('../public/img/building-bg.jpg');
+    background-repeat: no-repeat;
+}
+.gdCard {
+    /* width: 20rem; */
+    margin-bottom: 4rem;
+}
+.gdServiceCardIcon img {
+    width: 3.5rem;
+    margin-right: 1rem;
+}

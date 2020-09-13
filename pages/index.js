@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Navbar from './layout/navbar';
+import Banner from './layout/partials/banner';
+import Services from './layout/pages/services';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,18 +11,17 @@ export default function Home() {
         <title>Global Digitronix</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
+      <Navbar />
+      <header className={styles['gd-header']}>
+        <Banner />
+      </header>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://globaldg.net/">GLobal Digitronix!</a>
-        </h1>
-
-
+        <Services />
       </main>
-
       <footer className={styles.footer}>
         <a
           href="https://globaldg.net/"
+          className='mt-5'
         >
           All rights reserved to{' '}
           <img src="/logo.png" alt="Global Logo" className={styles.logo} />
