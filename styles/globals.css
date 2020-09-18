@@ -15,3 +15,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
+.carousel.slide {
+  z-index: -1;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(255 255 255);
+  border-color: #3d7abc;
+  background: #3d7abc;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 22px;
+  }
+}

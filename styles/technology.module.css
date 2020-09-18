@@ -1,0 +1,47 @@
+.technologyOverview {
+    /* width: 100%;
+    height: 100%;
+    -webkit-animation: myanimation 20s infinite;
+    animation: myanimation 20s infinite; */
+
+    background-image: url('/img/bg-images/home-banner-bg.png');
+    width: 100%;
+}
+  
+/* @-webkit-keyframes myanimation {
+    0% {
+      background-color: #69779b; }
+    25% {
+      background-color: #f8b500; }
+    50% {
+      background-color: #212121; }
+    75% {
+      background-color: #064acb; }
+    100% {
+      background-color: #69779b; } 
+}
+  
+  @keyframes myanimation {
+    0% {
+      background-color: #69779b;
+      }
+    25% {
+      background-color: #f8b500;
+      }
+    50% {
+      background-color: #212121;
+      }
+    75% {
+      background-color: #064acb;
+      }
+    100% {
+      background-color: #69779b; } 
+} */
+  
+.langBanner {
+    width: 300px;
+    margin: 32px;
+}
+.langBanner img {
+    width: 100%;
+}

@@ -8,3 +8,56 @@
 .gdCarousel {
     background: rgb(0, 0, 0);
 }
+.navbarOverview {
+    background: transparent;
+    z-index: 9;
+    @media (min-width: 992px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+.navbarBrand,
+.navbarList {
+    z-index: 9;
+}
+.carouselOverview {
+    margin-top: -89px;
+    background: rgb(0 0 0 / 0.1);
+}
+
+@media (max-width: 768px) {
+    .navbarList {
+        background: aquamarine;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
+.carouselBlock {
+    background: #000;
+}
+.gdCarouselCaption1 {
+    position: absolute;
+    right: 4%;
+    bottom: 20px;
+    top: 35%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    max-width: 35rem;
+}
+.gdCarouselCaption1 h3 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.gdCarouselCaption1 ul {
+    list-style-type: none;
+}
+.gdCarouselCaption1 ul li {
+    font-size: 22px;
+    font-weight: 800;
+}

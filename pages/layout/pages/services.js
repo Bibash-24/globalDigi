@@ -7,10 +7,10 @@ export default function Services() {
             <div className={serviceStyles.serviceBlock}>
                 <div className='d-flex justify-content-center'>
                     <div className='container row my-5'>
-                        <div className='col-12 col-sm-6 col-md-4 mr-4'>
+                        <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <div className='d-flex align-item-center mb-2'>
+                                    <div className='d-flex align-item-center mb-3'>
                                         <div className={serviceStyles.gdServiceCardIcon}>
                                             <img src='/icons/bugicon.svg' />
                                         </div>
@@ -25,10 +25,14 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <Card.Title>Web Hosting, Development & Domain Registration</Card.Title>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <div className={serviceStyles.gdServiceCardIcon}>
+                                            <img src='/icons/desktopicon.svg' />
+                                        </div>
+                                        <Card.Title className='mb-0'>Web Hosting, Development & Domain Registration</Card.Title>
+                                    </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        Our in-house team of web professionals delivers you high quality and smooth websites at reasonable prices. Also we offer web hosting and domain registration for your personal, corporate and business websites.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -36,10 +40,14 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <Card.Title>Network Devices Supply & Support (LAN & WAN)</Card.Title>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <div className={serviceStyles.gdServiceCardIcon}>
+                                            <img src='/icons/routericon.svg' />
+                                        </div>
+                                        <Card.Title className='mb-0'>Network Devices Supply & Support (LAN & WAN)</Card.Title>
+                                    </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        Global Digitronix offers wide range of network devices for your companies and corporate houses to let the resources stay connected smoothly. Remember us for all kinds of network support.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -47,10 +55,14 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <Card.Title>Computer Maintenance and Supply</Card.Title>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <div className={serviceStyles.gdServiceCardIcon}>
+                                            <img src='/icons/repairicon.svg' />
+                                        </div>
+                                        <Card.Title className='mb-0'>Computer Maintenance and Supply</Card.Title>
+                                    </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        For any kind of PCs, Desktops, Laptops repairing and maintenace, we're here for you. Also we deal with the supply of computer, printers, projectors, monitors and other computer components.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -58,10 +70,14 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <Card.Title>E-Attandance Software and Installation</Card.Title>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <div className={serviceStyles.gdServiceCardIcon}>
+                                            <img src='/icons/fingerprinticon.svg' />
+                                        </div>
+                                        <Card.Title className='mb-0'>E-Attandance Software and Installation</Card.Title>
+                                    </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -69,10 +85,14 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>
-                                    <Card.Title>CC Camera Installation and Maintenance</Card.Title>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <div className={serviceStyles.gdServiceCardIcon}>
+                                            <img src='/icons/cameraicon.svg' />
+                                        </div>
+                                        <Card.Title className='mb-0'>CC Camera Installation and Maintenance</Card.Title>
+                                    </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        We lead and support the Nepalese electronic security surveillance industry in the provision of security products and services.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

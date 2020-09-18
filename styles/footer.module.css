@@ -1,0 +1,21 @@
+.footerBlock {
+    background: url(/img/bg-images/footer-bg.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 850px;
+    width: 100%;
+}
+
+.footerListWrapper {
+    padding: 140px 0px 90px;
+}
+.footerContactWrapper {
+    margin-top: 8rem;
+}
+.footerContactForm {
+    margin-right: 7rem;
+    padding: 22px;
+    border-radius: 8px;
+    margin-top: 2rem;
+    width: 34rem;
+}

@@ -1,10 +1,13 @@
 .serviceBlock {
     background-image: url('../public/img/building-bg.jpg');
-    background-repeat: no-repeat;
 }
 .gdCard {
-    /* width: 20rem; */
     margin-bottom: 4rem;
+    height: 85%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
+}
+.gdCard:hover {
+    background: #90ccf4;
 }
 .gdServiceCardIcon img {
     width: 3.5rem;

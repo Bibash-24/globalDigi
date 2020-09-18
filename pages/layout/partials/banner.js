@@ -3,20 +3,24 @@ import navbarStyle from '../../../styles/navbar.module.css';
 
 export default function Banner() {
   return (
-    <div>
-      <Carousel>
+    <div className={navbarStyle.carouselOverview}>
+      <Carousel className={navbarStyle.carouselBlock}>
         <Carousel.Item className={navbarStyle.gdCarousel}>
           <img
             className="d-block w-100 gd-carousel-img"
             src="/img/cover-1.jpg"
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <Carousel.Caption className={navbarStyle.gdCarouselCaption1}>
+            <h3 className='mb-5'>Business Through Creative Process</h3>
+            <ul>
+              <li className='mb-4'>2 Home Page Layout Designs</li>
+              <li className='mb-4'>Easily Customizable</li>
+              <li className='mb-4'>Business and Designs</li>
+            </ul>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 gd-carousel-img"
             src="/img/cover-2.jpg"
@@ -39,7 +43,7 @@ export default function Banner() {
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
       <style jsx>{`
         .gd-carousel-img{
