@@ -1,11 +1,16 @@
+.ClientOverview {
+    margin: 150px 0px;
+}
 .clientWrapper {
     padding: 24px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
     border-radius: 12px;
+    margin-left: 70px;
+    margin-bottom: 30px;
 }
 .clientImgFrame {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 .clientImg {
     width: 100%;
@@ -20,17 +25,62 @@
     width: 50px;
     height: 36px;
     display: inline-block!important;
-    background-color: #e3e8f0;
+    background-color: #b3af8f;
     position: absolute;
-    left: 0px;
+    left: 60px;
     top: -15px;
     -webkit-mask-image: url('/quotation.png');
-    z-index: -1;
+    z-index: 1;
     transform: scale(.5);
 }
 .showClientsList {
     overflow: hidden;
+    margin-top: 100px;
 }
 .showClientsList ul {
     list-style-type: none;
+}
+.ClientBanner {
+    background-image: url('/img/bg-images/clients.jpg');
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    height: 500px;
+    z-index: -1;
+}
+.ClientBlock h1 {
+    background-color: #496a81;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 20px;
+    margin: -38px;
+}
+.ClientBlock h3 {
+    background-color: #496a81;
+    display: inline-block;
+    color: #fff;
+    padding: 60px;
+    width: 310px;
+    max-height: 303px;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+}
+.ClientBlock h3::before {
+    content: "";
+    -webkit-mask-image: url('/quotation.png');
+    transition: all 0.3s linear;
+    width: 50px;
+    height: 36px;
+    display: inline-block!important;
+    background-color: #b3af8f;
+    position: absolute;
+    left: 20px;
+    top: 42px;
+    -webkit-mask-image: url('/quotation.png');
+    z-index: 1;
+    transform: scale(.5);
 }

@@ -3,10 +3,14 @@ import clientStyles from '../../../styles/client.module.css'
 export default function Client() {
     return (
         <section>
+            <div className={clientStyles.ClientOverview}>
             <div className='container'>
+                <small>TESTIMONIAL</small>
                 <div className='row my-5'>
-                    <div className='col-md-6'>
-                        <h1>Making Sure all our Clients are Satisfied</h1>
+                    <div className={`col-md-6 ${clientStyles.ClientBlock}`}>
+                        <h1>Kinds Words From Clients</h1>
+                        <div className={clientStyles.ClientBanner} />
+                        <h3>Making Sure all our Clients are Satisfied</h3>
                     </div>
                     <div className='col-md-6'>
                         <div className={clientStyles.clientWrapper}>
@@ -16,13 +20,13 @@ export default function Client() {
                                 travel across her face and She is the host to your
                                 journey.
                             </p>
-                            <div className='d-flex flex-wrap justify-content-between align-items-baseline'>
-                                <div>
-                                    <h4>Fanny Spencer</h4>
-                                    <p>Chief Executive, Amazon</p>
-                                </div>
+                            <div className='d-flex flex-wrap align-items-center'>
                                 <div className={clientStyles.clientImgFrame}>
                                     <img className={clientStyles.clientImg} src='/img/teams/ceo.jpg' />
+                                </div>
+                                <div className='ml-4'>
+                                    <h4>Fanny Spencer</h4>
+                                    <p>Chief Executive, Amazon</p>
                                 </div>
                             </div>
                         </div>
@@ -33,13 +37,13 @@ export default function Client() {
                                 travel across her face and She is the host to your
                                 journey.
                             </p>
-                            <div className='d-flex flex-wrap justify-content-between align-items-baseline'>
-                                <div>
-                                    <h4>Fanny Spencer</h4>
-                                    <p>Chief Executive, Amazon</p>
-                                </div>
+                            <div className='d-flex flex-wrap align-items-center'>
                                 <div className={clientStyles.clientImgFrame}>
                                     <img className={clientStyles.clientImg} src='/img/teams/ceo.jpg' />
+                                </div>
+                                <div className='ml-4'>
+                                    <h4>Fanny Spencer</h4>
+                                    <p>Chief Executive, Amazon</p>
                                 </div>
                             </div>
                         </div>
@@ -78,6 +82,7 @@ export default function Client() {
                         </ul>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from './layout/navbar';
 import Banner from './layout/partials/banner';
 import Services from './layout/pages/services';
-// import Products from './layout/pages/products';
+import Products from './layout/pages/products';
 import Client from './layout/pages/client';
 import Technology from './layout/pages/technology';
 import Development from './layout/pages/development';
@@ -23,7 +23,7 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <Services />
-        {/* <Products /> */}
+        <Products />
         <Client />
         <Team />
         <Technology />

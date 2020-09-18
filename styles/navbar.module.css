@@ -49,15 +49,60 @@
     padding-bottom: 20px;
     color: #fff;
     max-width: 35rem;
+    left: unset;
+    text-align: left;
 }
-.gdCarouselCaption1 h3 {
-    font-size: 50px;
+.gdCarouselCaption2 {
+    position: absolute;
+    right: unset;
+    bottom: 20px;
+    top: 35%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    max-width: 47rem;
+    left: 4%;
+    text-align: left;
+}
+.gdCarouselCaption3 {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    text-align: center;
+    top: 35%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    max-width: 100%;
+    left: unset;
+    text-align: center;
+}
+.gdCarouselCaption1 h3,
+.gdCarouselCaption2 h3,
+.gdCarouselCaption3 h3 {
+    font-size: 60px;
     font-weight: 800;
 }
-.gdCarouselCaption1 ul {
+.gdCarouselCaption1 ul,
+.gdCarouselCaption2 ul,
+.gdCarouselCaption3 ul {
     list-style-type: none;
 }
 .gdCarouselCaption1 ul li {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 800;
 }
+.gdCarouselCaption2 ul li {
+    font-size: 24px;
+    font-weight: 400;
+}
+.gdCarouselCaption3 p {
+    font-size: 22px;
+    max-width: 50rem;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+}
+
