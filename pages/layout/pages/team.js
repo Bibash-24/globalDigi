@@ -3,7 +3,7 @@ import teamStyles from '../../../styles/team.module.css'
 export default function Team() {
     return (
         <section>
-            <div className='container'>
+            <div className={`container ${teamStyles.teamOverview}`}>
                 <div className='row my-5'>
                     <div className='col-md-4'>
                         <div className={teamStyles.imgTopWrapper}>
@@ -25,8 +25,24 @@ export default function Team() {
                         </div>
                     </div>
                     <div className='col-md-5'>
-                        <div>THE BEST OF EVERYTHING</div>
-                        <div>Our Teams</div>
+                        <small className='text-left'>THE BEST OF EVERYTHING</small>
+                        <h2>Our Teams</h2>
+                        <p>
+                            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris villiam nuesrt vial nisi.
+                        </p>
+                        <h3>Service Over 10+ years</h3>
+                        <p>
+                            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris villiam nuesrt vial nisi.
+                        </p>
+                        <h3>Game Changers</h3>
+                        <p>
+                            Qui nunc nobis videntur parum clari, sollemnes in futurum putamus parum claram legere. 
+                            Ut enim ad minim veniam.
+                        </p>
                     </div>
                 </div>
             </div>

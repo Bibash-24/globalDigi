@@ -35,3 +35,12 @@
   width: 100%;
   height: 100%;
 }
+.teamOverview h2 {
+  font-size: 42px;
+}
+.teamOverview h3 {
+  font-size: 32px;
+}
+.teamOverview p {
+  margin-bottom: 62px;
+}

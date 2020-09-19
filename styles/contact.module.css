@@ -1,0 +1,37 @@
+/* .contactOverview {
+    background: #F7F7F7;
+} */
+.contactImgBlock {
+    height: 500px;
+    width: 100%;
+}
+.contactImg {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-image: url('/img/bg-images/photo-1523966211575-eb4a01e7dd51.jpeg');
+    background-size: cover;
+}
+
+.contactWrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contactRow {
+    /* border: 6px solid #b3af8f; */
+    /* padding: 24px; */
+}
+.contactRow p {
+    margin: 23px 0px; 
+}
+.contactForm button {
+    background-color: #496a81;
+}
+.contactImg h3 {
+    margin-left: -25px;
+}
+.contactLocationMap {
+    background-color: gray;
+    height: 444px;
+    width: 100%;
+}

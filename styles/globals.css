@@ -49,7 +49,17 @@ small {
   display: block;
   text-align: center;
 }
+p {
+  color: #4a4a4a;
+}
 
+h3.blockWrapper {
+  background-color: #496a81;
+  display: inline-block;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 40px;
+}
  /* #001021
  #034748
  #1481ba
