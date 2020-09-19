@@ -4,7 +4,7 @@ export default function Team() {
     return (
         <section>
             <div className={`container ${teamStyles.teamOverview}`}>
-                <div className='row my-5'>
+                <div className='row'>
                     <div className='col-md-4'>
                         <div className={teamStyles.imgTopWrapper}>
                             <img src="/img/teams/ceo.jpg" />

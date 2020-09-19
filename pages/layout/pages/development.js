@@ -5,7 +5,7 @@ export default function Development() {
         <section>
             <div className={`container ${DevelopmentStyles.developmentOverview}`}>
                 <small>DEVELOPMENT THROUGHOUT</small>
-                <h3 className='text-center'>Our Stats in Numbers</h3>
+                <h2 className='text-center'>Our Stats in Numbers</h2>
 
                 <div className='row justify-content-between text-center'>
                     <div className={DevelopmentStyles.gdDevelopmentBlock}>

@@ -6,7 +6,7 @@ export default function Services() {
         <section className="w-100">
             <div className={serviceStyles.serviceBlock}>
                 <div className='d-flex justify-content-center'>
-                    <div className='container row my-5'>
+                    <div className='container row'>
                         <div className='col-12 col-sm-6 col-md-4'>
                             <Card className={serviceStyles.gdCard}>
                                 <Card.Body>

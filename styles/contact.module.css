@@ -1,6 +1,7 @@
-/* .contactOverview {
-    background: #F7F7F7;
-} */
+.contactOverview {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
 .contactImgBlock {
     height: 500px;
     width: 100%;
@@ -12,11 +13,11 @@
     background-image: url('/img/bg-images/photo-1523966211575-eb4a01e7dd51.jpeg');
     background-size: cover;
 }
-
+/* 
 .contactWrapper {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 .contactRow {
     /* border: 6px solid #b3af8f; */
     /* padding: 24px; */

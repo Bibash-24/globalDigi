@@ -1,9 +1,14 @@
 .productOverview {
 	color: #000;
+	background-color: rgb(250 235 215 / 40%);
 	/* background: repeating-linear-gradient(45deg, #606dbc, #465298 50%); */
 	/* background: url('/img/bg-images/Lazeez-watercolor-textures-4K-UDH-backgrounds.jpg'); */
 	/* background-size: cover; */
 	/* height: 100vh; */
+}
+.productWrapper {
+	padding-top: 120px;
+	padding-bottom: 110px;
 }
 
 /* .productOverview:before {
@@ -35,10 +40,7 @@
 } */
 .productTitle {
 	text-align: center;
-	margin: 80px 0px;
-}
-.productTitle h2 {
-	font-size: 60px;
+	margin-bottom: 80px;
 }
 .productCol {
 	margin-bottom: 30px;

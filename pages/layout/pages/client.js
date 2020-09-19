@@ -8,9 +8,9 @@ export default function Client() {
                 <small>TESTIMONIAL</small>
                 <div className='row my-5'>
                     <div className={`col-md-6 ${clientStyles.ClientBlock}`}>
-                        <h1>Kinds Words From Clients</h1>
+                        <h3 className={`blockWrapper ${clientStyles.blockWrapperTitle}`}>Kinds Words From Clients</h3>
                         <div className={clientStyles.ClientBanner} />
-                        <h3>Making Sure all our Clients are Satisfied</h3>
+                        <h3 className={`blockWrapper ${clientStyles.blockWrapperSubTitle}`}>Making Sure all our Clients are Satisfied</h3>
                     </div>
                     <div className='col-md-6'>
                         <div className={clientStyles.clientWrapper}>

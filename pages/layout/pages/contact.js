@@ -52,7 +52,7 @@ export default function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className='row mt-4'>
+                        <div className='row mt-5'>
                             <div className={ContactStyles.contactLocationMap}>
                                 <h3 className='blockWrapper'>Visit us</h3>
                                 <h2>Location map here</h2>

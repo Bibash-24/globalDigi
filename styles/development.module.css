@@ -1,16 +1,11 @@
 .developmentOverview {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding: 120px 0px;
 }
 .gdDevelopmentBlock {
     width: 29%;
     padding: 24px 24px 34px 24px;
     margin: 24px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
-}
-.developmentOverview h3 {
-    font-size: 60px;
-    font-weight: 800;
 }
 .gdDevelopmentStat {
     font-size: 50px;

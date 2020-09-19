@@ -9,7 +9,7 @@ export default function Careers() {
     return (
         <section>
             <div className={careersStyles.careersOverview}>
-                <h1 className='text-center d-block mb-5'>Careers</h1>
+                <h2 className='text-center d-block mb-5'>Careers</h2>
                 <div className='row'>
                     <div className='col-md-6'>
                         <div className={careersStyles.careersImgWrapper}>

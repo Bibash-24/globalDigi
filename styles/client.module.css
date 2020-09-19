@@ -1,5 +1,5 @@
 .ClientOverview {
-    margin: 150px 0px;
+    margin: 120px 0px;
 }
 .clientWrapper {
     padding: 24px;
@@ -51,17 +51,11 @@
     height: 500px;
     z-index: -1;
 }
-.ClientBlock h1 {
-    background-color: #496a81;
-    display: inline-block;
-    color: #fff;
-    padding: 8px 20px;
-    margin: -38px;
+.ClientBlock .blockWrapperTitle {
+    margin-top: -30px;
+    margin-left: -30px;
 }
-.ClientBlock h3 {
-    background-color: #496a81;
-    display: inline-block;
-    color: #fff;
+.ClientBlock .blockWrapperSubTitle {
     padding: 60px;
     width: 310px;
     max-height: 303px;
@@ -69,7 +63,8 @@
     bottom: -20px;
     right: -50px;
 }
-.ClientBlock h3::before {
+
+.ClientBlock .blockWrapperSubTitle::before {
     content: "";
     -webkit-mask-image: url('/quotation.png');
     transition: all 0.3s linear;

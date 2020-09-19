@@ -4,6 +4,7 @@
     -webkit-animation: myanimation 20s infinite;
     animation: myanimation 20s infinite;
     background: #496a81;
+    padding: 120px 0px;
 }
   
 @-webkit-keyframes myanimation {
@@ -45,9 +46,5 @@
 }
 
 .technologyOverview h2 {
-  font-size: 60px;
   margin-bottom: 40px;
-}
-.technologyWrapper {
-  padding: 80px 0px;
 }

@@ -1,5 +1,7 @@
 .serviceBlock {
     background-image: url('../public/img/building-bg.jpg');
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 .gdCard {
     margin-bottom: 4rem;
