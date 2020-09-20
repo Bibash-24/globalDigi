@@ -47,10 +47,15 @@
 	width: 100%;
 }
 .imgBlock {
-	width: 50%;
-    /* height: 340px; */
+	width: 100%;
+    height: 340px;
     overflow: hidden;
 }
+/* .imgBlock {
+	width: 50%;
+    height: 340px;
+    overflow: hidden;
+} */
 .productOverviewImage {
 	width: 100%;
 	height: 100%;

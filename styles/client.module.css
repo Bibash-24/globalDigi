@@ -1,6 +1,10 @@
 .ClientOverview {
     margin: 120px 0px;
 }
+.clientTitle {
+	text-align: center;
+	margin-bottom: 80px;
+}
 .clientWrapper {
     padding: 24px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;

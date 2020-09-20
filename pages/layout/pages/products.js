@@ -12,9 +12,9 @@ export default function Products() {
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/CLGAS.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>CENTRAL LEVEL GOVERNMENT ACCOUNTING SYSTEM</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -22,15 +22,15 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/PIS.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>PERSONNEL INFORMATION SYSTEM</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -38,15 +38,15 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/ACCU.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>ACCOUNTING PACKAGE FOR OFFICE</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -54,15 +54,15 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/IMS.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>INVENTORY MANAGEMENT SYSTEM</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -70,15 +70,15 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/QAS.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>QUESTIONER ANALYSIS SYSTEM</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -86,15 +86,15 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                         <div className='d-flex h-100'>
                             <div className={productStyles.imgBlock}>
-                                <img className={productStyles.productOverviewImage} src="/img/cover-4.jpg" />
+                                <img className={productStyles.productOverviewImage} src="/img/products/Antivirus.jpg" />
                             </div>
-                            <div className={productStyles.productOverviewDetails}>
+                            {/* <div className={productStyles.productOverviewDetails}>
                                 <h4>Antivirus Software</h4>
                                 <ul>
                                     <li>Great UI</li>
@@ -102,7 +102,7 @@ export default function Products() {
                                     <li>Repairing and maintenance</li>
                                     <li>Web hosting</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

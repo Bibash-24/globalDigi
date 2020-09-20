@@ -1,3 +1,7 @@
+.serviceTitle {
+	text-align: center;
+	margin-bottom: 80px;
+}
 .serviceBlock {
     background-image: url('../public/img/building-bg.jpg');
     padding-top: 120px;
