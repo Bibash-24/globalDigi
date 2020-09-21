@@ -5,6 +5,7 @@ export default function Contact() {
     return (
         <section>
             <div className={ContactStyles.contactOverview}>
+                <h2 className='d-block text-center mb-5'>Contact</h2>
                 <div className='container'>
                     <div className={ContactStyles.contactWrapper}>
                         <div className={`row ${ContactStyles.contactRow}`}>

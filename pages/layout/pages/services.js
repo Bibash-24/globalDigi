@@ -13,13 +13,9 @@ export default function Services() {
                         <div className='col-12 col-sm-6 col-md-4'>
                             <div
                                 data-aos="fade-right"
-                                data-aos-offset="200" // offset (in px) from the original trigger point
-                                data-aos-delay="50" // values from 0 to 3000, with step 50ms
-                                data-aos-duration="1000" // values from 0 to 3000, with step 50ms
-                                data-aos-easing="ease-in-out" // default easing for AOS animations
-                                data-aos-mirror="false" // whether elements should animate out while scrolling past them
-                                data-aos-once="true" // whether animation should happen only once - while scrolling down
-                            // data-aos-anchor-placement="top-center" // defines which position of the element regarding to window should trigger the animation
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
                             >
                                 <Card className={serviceStyles.gdCard}>
                                     <Card.Body>
@@ -37,79 +33,114 @@ export default function Services() {
                             </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={serviceStyles.gdCard}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={serviceStyles.gdServiceCardIcon}>
-                                            <img src='/icons/desktopicon.svg' />
+                            <div
+                                data-aos="fade-down"
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
+                            >
+                                <Card className={serviceStyles.gdCard}>
+                                    <Card.Body>
+                                        <div className='d-flex align-item-center mb-3'>
+                                            <div className={serviceStyles.gdServiceCardIcon}>
+                                                <img src='/icons/desktopicon.svg' />
+                                            </div>
+                                            <Card.Title className='mb-0'>Web Hosting, Development & Domain Registration</Card.Title>
                                         </div>
-                                        <Card.Title className='mb-0'>Web Hosting, Development & Domain Registration</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        Our in-house team of web professionals delivers you high quality and smooth websites at reasonable prices. Also we offer web hosting and domain registration for your personal, corporate and business websites.
+                                        <Card.Text>
+                                            Our in-house team of web professionals delivers you high quality and smooth websites at reasonable prices. Also we offer web hosting and domain registration for your personal, corporate and business websites.
                                     </Card.Text>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={serviceStyles.gdCard}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={serviceStyles.gdServiceCardIcon}>
-                                            <img src='/icons/routericon.svg' />
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
+                            >
+                                <Card className={serviceStyles.gdCard}>
+                                    <Card.Body>
+                                        <div className='d-flex align-item-center mb-3'>
+                                            <div className={serviceStyles.gdServiceCardIcon}>
+                                                <img src='/icons/routericon.svg' />
+                                            </div>
+                                            <Card.Title className='mb-0'>Network Devices Supply & Support (LAN & WAN)</Card.Title>
                                         </div>
-                                        <Card.Title className='mb-0'>Network Devices Supply & Support (LAN & WAN)</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        Global Digitronix offers wide range of network devices for your companies and corporate houses to let the resources stay connected smoothly. Remember us for all kinds of network support.
+                                        <Card.Text>
+                                            Global Digitronix offers wide range of network devices for your companies and corporate houses to let the resources stay connected smoothly. Remember us for all kinds of network support.
                                     </Card.Text>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={serviceStyles.gdCard}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={serviceStyles.gdServiceCardIcon}>
-                                            <img src='/icons/repairicon.svg' />
+                            <div
+                                data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
+                            >
+                                <Card className={serviceStyles.gdCard}>
+                                    <Card.Body>
+                                        <div className='d-flex align-item-center mb-3'>
+                                            <div className={serviceStyles.gdServiceCardIcon}>
+                                                <img src='/icons/repairicon.svg' />
+                                            </div>
+                                            <Card.Title className='mb-0'>Computer Maintenance and Supply</Card.Title>
                                         </div>
-                                        <Card.Title className='mb-0'>Computer Maintenance and Supply</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        For any kind of PCs, Desktops, Laptops repairing and maintenace, we're here for you. Also we deal with the supply of computer, printers, projectors, monitors and other computer components.
+                                        <Card.Text>
+                                            For any kind of PCs, Desktops, Laptops repairing and maintenace, we're here for you. Also we deal with the supply of computer, printers, projectors, monitors and other computer components.
                                     </Card.Text>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={serviceStyles.gdCard}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={serviceStyles.gdServiceCardIcon}>
-                                            <img src='/icons/fingerprinticon.svg' />
+                            <div
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
+                            >
+                                <Card className={serviceStyles.gdCard}>
+                                    <Card.Body>
+                                        <div className='d-flex align-item-center mb-3'>
+                                            <div className={serviceStyles.gdServiceCardIcon}>
+                                                <img src='/icons/fingerprinticon.svg' />
+                                            </div>
+                                            <Card.Title className='mb-0'>E-Attandance Software and Installation</Card.Title>
                                         </div>
-                                        <Card.Title className='mb-0'>E-Attandance Software and Installation</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
+                                        <Card.Text>
+                                            E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
                                     </Card.Text>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={serviceStyles.gdCard}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={serviceStyles.gdServiceCardIcon}>
-                                            <img src='/icons/cameraicon.svg' />
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-once="true"
+                                className='h-100'
+                            >
+                                <Card className={serviceStyles.gdCard}>
+                                    <Card.Body>
+                                        <div className='d-flex align-item-center mb-3'>
+                                            <div className={serviceStyles.gdServiceCardIcon}>
+                                                <img src='/icons/cameraicon.svg' />
+                                            </div>
+                                            <Card.Title className='mb-0'>CC Camera Installation and Maintenance</Card.Title>
                                         </div>
-                                        <Card.Title className='mb-0'>CC Camera Installation and Maintenance</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        We lead and support the Nepalese electronic security surveillance industry in the provision of security products and services.
+                                        <Card.Text>
+                                            We lead and support the Nepalese electronic security surveillance industry in the provision of security products and services.
                                     </Card.Text>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                            </div>
                         </div>
                     </div>
                 </div>

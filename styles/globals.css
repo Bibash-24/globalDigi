@@ -32,7 +32,7 @@ a {
   background: #3d7abc;
 }
 .carousel-indicators {
-  z-index: 9;
+  z-index: 99;
 }
 
 @media (max-width: 768px) {

@@ -1,50 +1,84 @@
 .technologyOverview {
-    width: 100%;
-    height: 100%;
-    -webkit-animation: myanimation 20s infinite;
-    animation: myanimation 20s infinite;
-    background: #496a81;
-    padding: 120px 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: myanimation 20s infinite;
+  animation: myanimation 20s infinite;
+  background: #496a81;
+  padding: 120px 0px;
 }
-  
+
 @-webkit-keyframes myanimation {
-    0% {
-      background-color: #69779b; }
-    25% {
-      background-color: #f8b500; }
-    50% {
-      background-color: #496a81; }
-    75% {
-      background-color: #064acb; }
-    100% {
-      background-color: #69779b; } 
+  0% {
+    background-color: #69779b;
+  }
+
+  25% {
+    background-color: #f8b500;
+  }
+
+  50% {
+    background-color: #496a81;
+  }
+
+  75% {
+    background-color: #064acb;
+  }
+
+  100% {
+    background-color: #69779b;
+  }
 }
-  
-  @keyframes myanimation {
-    0% {
-      background-color: #69779b;
-      }
-    25% {
-      background-color: #f8b500;
-      }
-    50% {
-      background-color: #496a81;
-      }
-    75% {
-      background-color: #064acb;
-      }
-    100% {
-      background-color: #69779b; } 
+
+@keyframes myanimation {
+  0% {
+    background-color: #69779b;
+  }
+
+  25% {
+    background-color: #f8b500;
+  }
+
+  50% {
+    background-color: #496a81;
+  }
+
+  75% {
+    background-color: #064acb;
+  }
+
+  100% {
+    background-color: #69779b;
+  }
 }
-  
+
 .langBanner {
-    width: 190px;
-    margin: 32px;
+  width: 190px;
+  margin: 32px;
 }
+
 .langBanner img {
-    width: 100%;
+  width: 100%;
 }
 
 .technologyOverview h2 {
   margin-bottom: 40px;
 }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .langBanner {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1400px) {}

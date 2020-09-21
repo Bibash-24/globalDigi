@@ -9,19 +9,19 @@ export default function Team() {
                         <div className={teamStyles.imgTopWrapper}>
                             <img src="/img/teams/ceo.jpg" />
                             <div>Mohit Badu</div>
-                            <small>CEO and Founder</small>
+                            <small className='text-left'>CEO and Founder</small>
                         </div>
                         <div className={teamStyles.imgBottomWrapper}>
                             <img src="/img/teams/ceo.jpg" />
                             <div>Mohit Badu</div>
-                            <small>CEO and Founder</small>
+                            <small className='text-left'>CEO and Founder</small>
                         </div>
                     </div>
                     <div className='col-md-3'>
                         <div className={teamStyles.imgRightWrapper}>
                             <img src="/img/teams/ceo.jpg" />
                             <div>Mohit Badu</div>
-                            <small>CEO and Founder</small>
+                            <small className='text-left'>CEO and Founder</small>
                         </div>
                     </div>
                     <div className='col-md-5'>

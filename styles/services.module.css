@@ -18,6 +18,10 @@
     animation-name: fadeInLeft;
     border-top-left-radius: 3rem;
     transition: all 0.3s linear;
+    cursor: pointer;
+}
+.gdCard:hover p{
+    color: #fff;
 }
    
 .gdServiceCardIcon img {
