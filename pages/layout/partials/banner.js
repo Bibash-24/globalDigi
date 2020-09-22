@@ -56,10 +56,10 @@ export default function Banner() {
 
           <Carousel.Caption className={navbarStyle.gdCarouselCaption3}>
             <h3 className='mb-5'>A Perfect Landing Page For Your Business</h3>
-              <p className='mb-4'>
-                Create & edit pages easily with easy to use elementor page builder.
-                 Pre-defined with lot of design elements helps you to create a website
-                 quickly.
+            <p className='mb-4'>
+              Create & edit pages easily with easy to use elementor page builder.
+              Pre-defined with lot of design elements helps you to create a website
+              quickly.
               </p>
           </Carousel.Caption>
         </Carousel.Item>

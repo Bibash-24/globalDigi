@@ -10,6 +10,7 @@ export default function Client() {
         autoplaySpeed: 1500,
         arrows: false,
         dots: false,
+        focusOnSelect: true,
         pauseOnHover: false,
         responsive: [
             {
