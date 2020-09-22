@@ -1,3 +1,4 @@
+import { faBorderNone } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
 import clientStyles from '../../../styles/client.module.css'
 
@@ -76,66 +77,33 @@ export default function Client() {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-5'>
-                        <div className={clientStyles.showClientsList}>
-                            <ul className='d-flex'>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
                     {/* CLIENT Slider */}
                     <section className="customer-logos slider">
                         <Slider {...Slider_settings}>
                             <div className={clientStyles.slide}>
-                                <img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                             <div className="slide">
-                                <img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg" />
+                                <img src='/img/clients/client-12.png' />
                             </div>
                         </Slider>
                     </section>
