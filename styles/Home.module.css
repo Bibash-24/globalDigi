@@ -34,3 +34,13 @@ color: #fff;
 .gd-nav-link {
 	color: #fff;
 }
+.scrollTop {
+	background-color: green;
+    color: #fff;
+    display: inline-block;
+	padding: 12px;
+	right: 0;
+    position: fixed;
+	bottom: 100px;
+	cursor: pointer;
+}

@@ -74,10 +74,17 @@ h3 {
   font-weight: 800;
 }
 h2 {
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 800;
-  text-transform: uppercase;
 }
+.navbar.navbar-expand-lg.navbar-light {
+  z-index: 999;
+}
+/* button.btn-primary {
+  color: #fff;
+  background-color: #66999b;
+  border-color: #496a81;
+} */
  /* #001021
  #034748
  #1481ba

@@ -3,7 +3,8 @@ import DevelopmentStyles from '../../../styles/development.module.css'
 export default function Development() {
     return (
         <section>
-            <div className={`container ${DevelopmentStyles.developmentOverview}`}>
+            <div className={DevelopmentStyles.developmentOverview}>
+            <div className={`container ${DevelopmentStyles.developmentWrapper}`}>
                 <small>DEVELOPMENT THROUGHOUT</small>
                 <h2 className='text-center'>Our Stats in Numbers</h2>
 
@@ -33,6 +34,7 @@ export default function Development() {
                         </p>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );

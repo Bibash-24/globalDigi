@@ -4,7 +4,7 @@
   -webkit-animation: myanimation 20s infinite;
   animation: myanimation 20s infinite;
   background: #496a81;
-  padding: 120px 0px;
+  padding: 80px 0px;
 }
 
 @-webkit-keyframes myanimation {
@@ -77,7 +77,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .langBanner {
-    width: 200px;
+    width: 150px;
   }
 }
 

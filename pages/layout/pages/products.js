@@ -1,9 +1,43 @@
 import productStyles from '../../../styles/product.module.css'
+import { Button } from 'react-bootstrap';
 
 export default function Products() {
     return (
         <section className={productStyles.productOverview}>
-            <div className={productStyles.productWrapper}>
+            <div className={productStyles.productOverviewBlock}>
+                <div className='container'>
+                    <div className={productStyles.productOverviewBlockWrapper}>
+                        <div className='row'>
+                            <div className='col-md-6'>
+                                <div className={productStyles.productOverviewInfo}>
+                                    <small>
+                                        HOW DOES WE WORK
+                                    </small>
+                                    <h2 className='my-4'>
+                                        Like the River of Life we work upstream to live with the current
+                                    </h2>
+                                    <p>
+                                        Consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris
+                                        villiam nuesrt vial nisi to make its vaila.
+                                    </p>
+                                    <Button variant="primary" className={productStyles.productButton}>View all Product</Button>
+                                </div>
+                            </div>
+                            <div className='col-md-6'>
+                                <div className={productStyles.productImage}>
+                                    <div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div className={productStyles.productWrapper}>
                 <div className={productStyles.productTitle}>
                     <small>ELEGANT & BEST</small>
                     <h2>Our Products</h2>
@@ -106,7 +140,7 @@ export default function Products() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };

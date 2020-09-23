@@ -1,38 +1,20 @@
 .contactOverview {
-    padding-top: 120px;
-    padding-bottom: 40px;
+    /* padding-top: 120px;
+    padding-bottom: 40px; */
+    color: #fff;
 }
-.contactImgBlock {
-    height: 500px;
-    width: 100%;
+.contactWrapper {
+    background-color: #496a81;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.contactOverview small {
+    color: #fff;
 }
 .contactImg {
+    object-fit: cover;
+    width: 100%;
     height: 100%;
-    width: 100%;
-    background-position: center;
-    background-image: url('/img/bg-images/photo-1523966211575-eb4a01e7dd51.jpeg');
-    background-size: cover;
-}
-/* 
-.contactWrapper {
-    padding-top: 80px;
-    padding-bottom: 80px;
-} */
-.contactRow {
-    /* border: 6px solid #b3af8f; */
-    /* padding: 24px; */
-}
-.contactRow p {
-    margin: 23px 0px; 
-}
-.contactForm button {
-    background-color: #496a81;
-}
-.contactImg h3 {
-    margin-left: -25px;
-}
-.contactLocationMap {
-    background-color: gray;
-    height: 444px;
-    width: 100%;
+    background-color: #fff;
+    color: #000;
 }

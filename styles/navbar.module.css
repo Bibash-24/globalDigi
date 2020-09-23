@@ -25,15 +25,18 @@
     background: rgb(0 0 0 / 0.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .navbarList {
-        background: aquamarine;
+        background: #496a81;
         position: fixed;
         width: 100%;
         bottom: 0;
         left: 0;
         right: 0;
         top: 0;
+    }
+    .navbarList:hover {
+        color: #fff;
     }
 }
 .carouselBlock {

@@ -1,13 +1,14 @@
 .footerBlock {
-    background: url(/img/bg-images/footer-bg22.png) no-repeat center;
+    /* background: url(/img/bg-images/footer-bg22.png) no-repeat center; */
+    background-color: #063c77;
     background-size: cover;
     color: #fff;
-    height: 680px;
+    /* height: 480px; */
     width: 100%;
 }
 
 .footerListWrapper {
-    padding: 450px 0px 90px;
+    padding: 150px 0px;
 }
 .footerContactWrapper {
     margin-top: 8rem;
