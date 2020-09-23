@@ -1,6 +1,32 @@
+import { faBorderNone } from "@fortawesome/free-solid-svg-icons";
+import Slider from "react-slick";
 import clientStyles from '../../../styles/client.module.css'
 
 export default function Client() {
+    const Slider_settings = {
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        focusOnSelect: true,
+        pauseOnHover: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }
+        ]
+    };
     return (
         <section>
             <div className={clientStyles.ClientOverview}>
@@ -52,39 +78,36 @@ export default function Client() {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-5'>
-                        <div className={clientStyles.showClientsList}>
-                            <ul className='d-flex'>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                                <li>
-                                    <img src='/img/clients/client-12.png' />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+                    {/* CLIENT Slider */}
+                    <section className="customer-logos slider">
+                        <Slider {...Slider_settings}>
+                            <div className={clientStyles.slide}>
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                            <div className="slide">
+                                <img src='/img/clients/client-12.png' />
+                            </div>
+                        </Slider>
+                    </section>
                 </div>
             </div>
         </section>
