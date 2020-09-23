@@ -23,9 +23,7 @@ a {
 .carousel-control-prev {
     display: none;
 }
-/* .carousel.slide {
-  z-index: -1;
-} */
+
 .navbar-light .navbar-toggler {
   color: rgb(255 255 255);
   border-color: #3d7abc;
@@ -62,20 +60,28 @@ h3.blockWrapper {
   display: inline-block;
   color: #fff;
   padding: 8px 20px;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 800;
 }
 h1 {
   font-size: 60px;
   font-weight: 800;
 }
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 h3 {
   font-size: 34px;
   font-weight: 800;
 }
-h2 {
-  font-size: 26px;
-  font-weight: 800;
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #fff;
 }
 .navbar.navbar-expand-lg.navbar-light {
   z-index: 999;

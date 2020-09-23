@@ -10,7 +10,7 @@ export default function Products() {
                         <div className='row'>
                             <div className='col-md-6'>
                                 <div className={productStyles.productOverviewInfo}>
-                                    <small>
+                                    <small className='text-left'>
                                         HOW DOES WE WORK
                                     </small>
                                     <h2 className='my-4'>

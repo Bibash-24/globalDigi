@@ -1,6 +1,6 @@
 .footerBlock {
     /* background: url(/img/bg-images/footer-bg22.png) no-repeat center; */
-    background-color: #063c77;
+    background-color: #04091e;
     background-size: cover;
     color: #fff;
     /* height: 480px; */
@@ -8,7 +8,7 @@
 }
 
 .footerListWrapper {
-    padding: 150px 0px;
+    padding: 120px 0px 80px;
 }
 .footerContactWrapper {
     margin-top: 8rem;
@@ -19,4 +19,12 @@
     border-radius: 8px;
     margin-top: 2rem;
     width: 34rem;
+}
+.footerListWrapper ul li {
+    margin: 12px 0px;
+}
+.footerListWrapper .listTItle {
+    margin-bottom: 38px;
+    font-weight: 800;
+    font-size: 18px;
 }

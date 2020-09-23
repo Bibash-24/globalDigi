@@ -7,7 +7,7 @@ export default function Client() {
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 5000,
         arrows: false,
         dots: false,
         focusOnSelect: true,
@@ -80,7 +80,7 @@ export default function Client() {
                     </div>
 
                     {/* CLIENT Slider */}
-                    <section className="customer-logos slider">
+                    <section className="customer-logos slider pt-3">
                         <Slider {...Slider_settings}>
                             <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />

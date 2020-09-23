@@ -1,5 +1,5 @@
 .ClientOverview {
-    margin: 120px 0px;
+    margin: 80px 0px 40px;
 }
 .clientTitle {
 	text-align: center;
@@ -83,4 +83,6 @@
     z-index: 1;
     transform: scale(.5);
 }
-
+.customerSliderBlock {
+    padding: 40px 80px 0px;
+}

@@ -6,7 +6,7 @@ export default function Technology() {
             <div className={technologyStyles.technologyOverview}>
                 <div className={technologyStyles.technologyWrapper}>
                     <h2 className='d-block text-center'>Technology we like</h2>
-                    <div className='d-flex flex-wrap justify-content-between'>
+                    <div className='d-flex justify-content-between'>
                         <div className={technologyStyles.langBanner}>
                             <img src='/img/technology/php.png' />
                         </div>
