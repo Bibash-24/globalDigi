@@ -4,7 +4,7 @@ import serviceStyles from '../../../styles/services.module.css'
 export default function Services() {
     return (
         <section className="w-100">
-            
+
             <div className={serviceStyles.serviceBlock}>
                 <div className={serviceStyles.serviceTitle}>
                     <h2>Services</h2>

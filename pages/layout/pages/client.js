@@ -85,25 +85,25 @@ export default function Client() {
                             <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
-                            <div className="slide">
+                            <div className={clientStyles.slide}>
                                 <img src='/img/clients/client-12.png' />
                             </div>
                         </Slider>
