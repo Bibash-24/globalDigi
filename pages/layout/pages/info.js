@@ -6,14 +6,14 @@ export default function Info() {
         <section>
             <div className={InfoStyles.infoOverview}>
                 <div className='container'>
-                    <div className={InfoStyles.infoTitle}>
+                    <div className={`mb-5 ${InfoStyles.infoTitle}`}>
                         <h2>We Simplify Software Development Process</h2>
                     </div>
-                    <div className='row'>
+                    <div className='row justify-content-center'>
                         <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
-                                <div className='mb-3 mt-n3'><img src="/icons/discovericon.svg" /></div>
-                                <center><h4>Discover</h4></center>
+                                <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="/icons/discovericon.svg" /></div>
+                                <h4>Discover</h4>
                                 <p>
                                     We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.
                                 </p>
@@ -21,8 +21,8 @@ export default function Info() {
                         </div>
                         <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
-                                <div className='mb-3 mt-n3'><img src="/icons/designicon.svg" /></div>
-                                <center><h4>Design</h4></center>
+                                <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="/icons/designicon.svg" /></div>
+                                <h4>Design</h4>
                                 <p>
                                     Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end users.
                                 </p>
@@ -30,8 +30,8 @@ export default function Info() {
                         </div>
                         <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
-                                <div className='mb-3 mt-n3'><img src="/icons/buildicon.svg" /></div>
-                                <center><h4>Build</h4></center>
+                                <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="/icons/buildicon.svg" /></div>
+                                <h4>Build</h4>
                                 <p>
                                     Using modern technologies, we build with efficiency and skill, creating flexible and scalable business-driven solutions.
                                 </p>
@@ -39,8 +39,8 @@ export default function Info() {
                         </div>
                         <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
-                                <div className='mb-3 mt-n3'><img src="/icons/delivericon.svg" /></div>
-                                <center><h4>Deliver</h4></center>
+                                <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="/icons/delivericon.svg" /></div>
+                                <h4>Deliver</h4>
                                 <p>
                                     We take an iterative approach to both our work and our practice, always looking for ways to improve what we do.
                                 </p>

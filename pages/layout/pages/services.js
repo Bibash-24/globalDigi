@@ -18,7 +18,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-web-development.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>
@@ -40,7 +41,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-web-development.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>
@@ -62,7 +64,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-LAN.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>
@@ -84,7 +87,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-web-development.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>
@@ -106,7 +110,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-web-development.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>
@@ -128,7 +133,8 @@ export default function Services() {
                                 data-aos-once="true"
                                 className='h-100'
                             >
-                                <Card className={serviceStyles.gdCard}>
+                                <Card className={serviceStyles.gdCard} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                                    <Card.Img className='p-5' variant="top" src="/img/services/services-web-development.svg" />
                                     <Card.Body>
                                         <div className='d-flex align-item-center mb-3'>
                                             <div className={serviceStyles.gdServiceCardIcon}>

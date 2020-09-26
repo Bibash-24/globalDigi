@@ -1,6 +1,8 @@
 .infoOverview {
-    margin-top: 20px;
-    margin-bottom: 80px;
+    /* margin-top: 20px;
+    margin-bottom: 80px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .infoTitle {
     text-align: center;
@@ -30,3 +32,19 @@
     background-color: #496a81;
     color: #fff;
 }
+.infoImgIcon:after {
+    content: "";
+    border: 1px dashed #252b33;
+    width: 50%;
+    position: absolute;
+    top: 11%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+.infoRow:last-child .infoImgIcon:after {
+  content: '';
+  border: unset;
+}
+/* .infoOverview .infoTitle {
+    margin-left: ;
+} */

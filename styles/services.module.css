@@ -9,20 +9,19 @@
 }
 .gdCard {
     margin-bottom: 4rem;
-    height: 85%;
+    height: 95%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
+    border: none;
 }
 .gdCard:hover {
-    background: #1481BA;
-    color: #fff;
     animation-name: fadeInLeft;
     border-top-left-radius: 3rem;
     transition: all 0.3s linear;
     cursor: pointer;
 }
-.gdCard:hover p{
+/* .gdCard:hover p{
     color: #fff;
-}
+} */
    
 .gdServiceCardIcon img {
     width: 3.5rem;
