@@ -34,13 +34,13 @@ export default function Home() {
         <Services />
         <Info />
         <Products />
+        <Technology />
         <Team />
         <AboutUs />
         <Contact />
         <Development />
-        <Client />    
-        <Technology />
-        
+        <Client />
+
         <Careers />
         <Footer />
         <section className={styles.scrollTop} onClick={scrollTop}>
