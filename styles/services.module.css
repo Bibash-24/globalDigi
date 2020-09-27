@@ -9,13 +9,13 @@
 }
 .gdCard {
     margin-bottom: 4rem;
-    height: 95%;
+    /* height: 95%; */
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
     border: none;
 }
 .gdCard:hover {
     animation-name: fadeInLeft;
-    border-top-left-radius: 3rem;
+    /* border-top-left-radius: 3rem; */
     transition: all 0.3s linear;
     cursor: pointer;
 }

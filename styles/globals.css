@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css"; 
+/* @import "~slick-carousel/slick/slick-theme.css"; */
+
 html,
 body {
   padding: 0;
@@ -219,4 +222,7 @@ hr {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.slick-slider  div:focus, .slick-track  div:focus, .slick-slide  div:focus, .slick-slide  div:focus{
+  outline: none;
 }
