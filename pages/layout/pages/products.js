@@ -7,7 +7,7 @@ export default function Products() {
             <div className={productStyles.productOverviewBlock}>
                 <div className='container'>
                     <div className={productStyles.productOverviewBlockWrapper}>
-                        <div className={productStyles.productWrapper}>
+                        <div>
                             <div className={productStyles.productTitle}>
                                 <small>ELEGANT & BEST</small>
                                 <h2>Our Products</h2>

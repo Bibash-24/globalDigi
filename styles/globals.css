@@ -226,3 +226,7 @@ hr {
 .slick-slider  div:focus, .slick-track  div:focus, .slick-slide  div:focus, .slick-slide  div:focus{
   outline: none;
 }
+
+.gd-services-overview .slick-slide {
+  width: 300px !important;
+}

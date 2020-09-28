@@ -10,8 +10,10 @@
 .gdCard {
     margin-bottom: 4rem;
     /* height: 95%; */
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px; */
     border: none;
+    width: 300px !important;
+    height: 34rem;
 }
 .gdCard:hover {
     animation-name: fadeInLeft;
@@ -27,6 +29,10 @@
     width: 3.5rem;
     margin-right: 1rem;
 }
+.serviceCardImage {
+    height: 260px;
+    padding: 18px;
+}
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -38,3 +44,53 @@
         transform: none;
     }
 } 
+.gdCard1 {
+    background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard2 {
+    background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard3 {
+    background-image: linear-gradient(rgb(180 231 214) 0%, rgb(244 204 240) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard4 {
+    background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard5 {
+    background-image: linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard6 {
+    background-image: linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard7 {
+    background-image: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard8 {
+    background-image: linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard9 {
+    background-image: linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%);
+    border: none;
+    height: 34rem;
+}
+.gdCard10 {
+    background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    border: none;
+    height: 34rem;
+}
