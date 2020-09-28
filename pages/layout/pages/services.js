@@ -20,7 +20,7 @@ export default class Services extends Component {
                     </div>
                     <div className='serviceSlider-carousel'>
                         <SlickCarousel {...AppCarouselOptions}>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard1} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard1}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-mobile-apps.svg" />
                                 <Card.Body>
                                     <Card.Title className='mb-2'>Mobile Apps</Card.Title>
@@ -29,7 +29,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard2} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard2}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-ui-ux.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -40,7 +40,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard3} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard3}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-gaming.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -51,7 +51,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard4} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard4}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-qa.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -62,7 +62,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard5} style={{ backgroundImage: 'linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard5}`} style={{ backgroundImage: 'linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -73,7 +73,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard6} style={{ backgroundImage: 'linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard6}`} style={{ backgroundImage: 'linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -84,7 +84,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard7} style={{ backgroundImage: 'linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard7}`} style={{ backgroundImage: 'linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-LAN.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -95,7 +95,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard8} style={{ backgroundImage: 'linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard8}`} style={{ backgroundImage: 'linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -106,7 +106,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard9} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard9}`} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-e-attendance.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
@@ -117,7 +117,7 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={serviceStyles.gdCard, serviceStyles.gdCard10} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard10}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
