@@ -1,4 +1,3 @@
-import { Card } from 'react-bootstrap';
 import InfoStyles from '../../../styles/info.module.css'
 
 export default function Info() {

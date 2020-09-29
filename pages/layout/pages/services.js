@@ -7,10 +7,11 @@ import serviceStyles from '../../../styles/services.module.css'
 export default class Services extends Component {
     render() {
         const AppCarouselOptions = {
-            infinite: true,
+            infinite: false,
             arrows: false,
             dots: false,
             speed: 500,
+            // slidesToScroll: 1,
         };
         return (
             <section className={`w-100 gd-services-overview ${serviceStyles.serviceBlock}`}>
@@ -20,6 +21,17 @@ export default class Services extends Component {
                     </div>
                     <div className='serviceSlider-carousel'>
                         <SlickCarousel {...AppCarouselOptions}>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard9}`} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-e-attendance.svg" />
+                                <Card.Body>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <Card.Title className='mb-2'>E-Attandance Software and Installation</Card.Title>
+                                    </div>
+                                    <Card.Text>
+                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard1}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-mobile-apps.svg" />
                                 <Card.Body>
@@ -62,6 +74,17 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard10}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-seo.svg" />
+                                <Card.Body>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <Card.Title className='mb-2'>SEO & Digital Marketing</Card.Title>
+                                    </div>
+                                    <Card.Text>
+                                        Our team helps to optimize your websites and are determined towards online marketing stack with focus on content, creative, social media and digital.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard5}`} style={{ backgroundImage: 'linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
                                 <Card.Body>
@@ -74,7 +97,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard6}`} style={{ backgroundImage: 'linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%)' }}>
-                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-antivirus.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
                                         <Card.Title className='mb-2'>Antivirus Solution and Utility Software</Card.Title>
@@ -96,7 +119,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard8}`} style={{ backgroundImage: 'linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%)' }}>
-                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-computer.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
                                         <Card.Title className='mb-2'>Computer Maintenance and Supply</Card.Title>
@@ -106,19 +129,8 @@ export default class Services extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard9}`} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
-                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-e-attendance.svg" />
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <Card.Title className='mb-2'>E-Attandance Software and Installation</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard10}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
-                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-web-development.svg" />
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-cctv.svg" />
                                 <Card.Body>
                                     <div className='d-flex align-item-center mb-3'>
                                         <Card.Title className='mb-2'>CC Camera Installation and Maintenance</Card.Title>

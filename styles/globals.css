@@ -109,8 +109,8 @@ hr {
 
 
 .slick-slide {
-    margin: 0px 20px;
-    /* transition: none; */
+    margin: 0px 30px;
+    transition: none;
 }
 
 .slick-slide img {
