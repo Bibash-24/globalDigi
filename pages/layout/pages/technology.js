@@ -10,7 +10,7 @@ export default function Technology() {
                     <Tabs defaultActiveKey="mobile" className='justify-content-center'>
                         <Tab eventKey="mobile" title="Mobile">
                             <div className="tab-item-wrapper">
-                                <div className='d-flex flex-wrap justify-content-between py-5'>
+                                <div className='d-flex flex-wrap justify-content-between py-5 align-items-end'>
                                     <div className='p-3 text-center'>
                                         <img className='mb-2' src="/img/tech/mobile/ios.svg" />
                                         <h6>iOS</h6>
@@ -41,7 +41,7 @@ export default function Technology() {
 
                         <Tab eventKey="frontend" title="Front End">
                             <div className="tab-item-wrapper">
-                                <div className='d-flex flex-wrap justify-content-between py-5'>
+                                <div className='d-flex flex-wrap justify-content-between py-5 align-items-end'>
                                     <div className='p-3 text-center'>
                                         <img className='mb-2' src="/img/tech/frontend/angular-js.svg" />
                                         <h6>Angular JS</h6>
@@ -64,7 +64,7 @@ export default function Technology() {
 
                         <Tab eventKey="database" title="Database">
                             <div className="tab-item-wrapper">
-                                <div className='d-flex flex-wrap justify-content-between py-5'>
+                                <div className='d-flex flex-wrap justify-content-between py-5 align-items-end'>
                                     <div className='p-3 text-center'>
                                         <img className='mb-2' src="/img/tech/database/mango-db.svg" />
                                         <h6>Mongo DB</h6>
@@ -95,7 +95,7 @@ export default function Technology() {
 
                         <Tab eventKey="backend" title="Back End">
                             <div className="tab-item-wrapper">
-                                <div className='d-flex flex-wrap justify-content-between py-5'>
+                                <div className='d-flex flex-wrap justify-content-between py-5 align-items-end'>
                                     <div className='p-3 text-center'>
                                         <img className='mb-2' src="/img/tech/backend/php.svg" />
                                         <h6>PHP</h6>
