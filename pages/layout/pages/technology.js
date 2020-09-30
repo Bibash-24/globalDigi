@@ -3,7 +3,8 @@ import { Tabs, Tab } from 'react-bootstrap';
 
 export default function Technology() {
     return (
-        <section className={`w-100 gd-technology-overview gd-services-overview ${technologyStyles.technologyBlock}`}>
+        <section className={`w-100 gd-technology-overview gd-services-overview ${technologyStyles.technologyBlockOverview}`}>
+            <div className={technologyStyles.technologyBlock}>
             <div className='container-fluid' >
                 <div className="col-sm-12">
 
@@ -126,6 +127,7 @@ export default function Technology() {
                     </Tabs>
 
                 </div>
+            </div>
             </div>
         </section>
     );
