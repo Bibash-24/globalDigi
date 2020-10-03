@@ -1,9 +1,13 @@
 .technologyBlockOverview {
-  background-image: url('/img/bg-images/bg-technologies.jpg');
+  /* background-image: url('/img/bg-images/bg-technologies.jpg'); */
   /* padding-top: 60px;
   padding-bottom: 40px; */
   background-size: cover;
   /* background-position: center; */
+}
+.technologyTitle {
+  text-align: center;
+  margin-bottom: 40px;
 }
 .technologyBlock {
   padding-top: 60px;

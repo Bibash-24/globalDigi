@@ -11,7 +11,6 @@ export default class Services extends Component {
             arrows: false,
             dots: false,
             speed: 500,
-            // slidesToScroll: 1,
         };
         return (
             <section className={`w-100 gd-services-overview ${serviceStyles.serviceBlock}`}>
