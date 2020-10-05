@@ -7,10 +7,39 @@ import serviceStyles from '../../../styles/services.module.css'
 export default class Services extends Component {
     render() {
         const AppCarouselOptions = {
-            infinite: false,
             arrows: false,
             dots: false,
             speed: 500,
+            useTransform: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            initialSlide: 0,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        // dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
         return (
             <section className={`w-100 gd-services-overview ${serviceStyles.serviceBlock}`}>
@@ -20,17 +49,6 @@ export default class Services extends Component {
                     </div>
                     <div className='serviceSlider-carousel'>
                         <SlickCarousel {...AppCarouselOptions}>
-                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard9}`} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
-                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-e-attendance.svg" />
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <Card.Title className='mb-2'>E-Attandance Software and Installation</Card.Title>
-                                    </div>
-                                    <Card.Text>
-                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
                             <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard1}`} style={{ backgroundImage: 'linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%)' }}>
                                 <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-mobile-apps.svg" />
                                 <Card.Body>
@@ -59,6 +77,17 @@ export default class Services extends Component {
                                     </div>
                                     <Card.Text>
                                         We’ve been renowned for delivering interactive, visually appealing and exciting gaming experiences on Mobile, Console, and Virtual Reality platforms.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card className={`${serviceStyles.gdCard} ${serviceStyles.gdCard9}`} style={{ backgroundImage: 'linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%)' }}>
+                                <Card.Img className={serviceStyles.serviceCardImage} variant="top" src="/img/services/services-e-attendance.svg" />
+                                <Card.Body>
+                                    <div className='d-flex align-item-center mb-3'>
+                                        <Card.Title className='mb-2'>E-Attandance Software and Installation</Card.Title>
+                                    </div>
+                                    <Card.Text>
+                                        E-Attandance software provides both employer and employees with confidence in the accuracy of their wage payments all while improving productivity.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
