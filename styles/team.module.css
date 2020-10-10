@@ -1,6 +1,10 @@
 .teamOverview {
   padding: 80px 0px;
 }
+.teamTitle {
+	text-align: center;
+	margin-bottom: 80px;
+}
 .imgTopWrapper {
 	width: 290px;
   height: auto;

@@ -11,7 +11,7 @@ import Careers from './layout/pages/careers';
 import AboutUs from './layout/pages/aboutUs';
 import Contact from './layout/pages/contact';
 import Footer from './layout/partials/footer';
-import Team from './layout/pages/team';
+import Industries from './layout/pages/industries';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
         <Work_Approach />
         <Technology />
         <Features />
-        <Team />
+        <Industries />
         <AboutUs />
         <Contact />
         <Client />

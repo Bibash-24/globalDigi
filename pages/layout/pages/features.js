@@ -1,7 +1,7 @@
 import DevelopmentStyles from '../../../styles/development.module.css'
 import { Card, CardGroup } from 'react-bootstrap';
 
-export default function Development() {
+export default function Features() {
     return (
         <section>
             <div className={DevelopmentStyles.developmentOverview}>

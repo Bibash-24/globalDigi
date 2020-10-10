@@ -1,6 +1,6 @@
 import productStyles from '../../../styles/product.module.css'
 
-export default function Products() {
+export default function WorkApproach() {
     return (
         <section className={productStyles.productOverview}>
             <div className={productStyles.productOverviewBlock}>
