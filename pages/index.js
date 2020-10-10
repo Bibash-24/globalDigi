@@ -5,7 +5,7 @@ import Services from './layout/pages/services';
 import Work_Approach from './layout/pages/Work_Approach';
 import Client from './layout/pages/client';
 import Technology from './layout/pages/technology';
-import Development from './layout/pages/development';
+import Features from './layout/pages/features';
 import Info from './layout/pages/info';
 import Careers from './layout/pages/careers';
 import AboutUs from './layout/pages/aboutUs';
@@ -35,7 +35,7 @@ export default function Home() {
         <Info />
         <Work_Approach />
         <Technology />
-        <Development />
+        <Features />
         <Team />
         <AboutUs />
         <Contact />
