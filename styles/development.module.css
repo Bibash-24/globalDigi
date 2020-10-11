@@ -13,3 +13,11 @@
 .gdDevelopmentStat {
     font-size: 50px;
 }
+.cardImg {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
