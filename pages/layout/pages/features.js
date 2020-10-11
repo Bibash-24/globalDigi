@@ -10,7 +10,7 @@ export default function Features() {
                     <div className='row text-center'>
                         <div className='col-md-4 mb-4'>
                         {/* <CardGroup> */}
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/client.png" />
                                 <Card.Body>
                                     <Card.Title>Client Centric Development</Card.Title>
@@ -25,7 +25,7 @@ export default function Features() {
                             </Card>
                             </div>
                             <div className='col-md-4 mb-4'>
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/agile.png" />
                                 <Card.Body>
                                     <Card.Title>Agile Development</Card.Title>
@@ -40,7 +40,7 @@ export default function Features() {
                             </Card>
                             </div>
                             <div className='col-md-4 mb-4'>
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/team.png" />
                                 <Card.Body>
                                     <Card.Title>Dedicated Development Team</Card.Title>
@@ -55,7 +55,7 @@ export default function Features() {
                             </Card>
                             </div>
                             <div className='col-md-4 mb-4'>
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/support.png" />
                                 <Card.Body>
                                     <Card.Title>Excellent Support</Card.Title>
@@ -70,7 +70,7 @@ export default function Features() {
                             </Card>
                             </div>
                             <div className='col-md-4 mb-4'>
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/quality.png" />
                                 <Card.Body>
                                     <Card.Title>Quality Deliverance</Card.Title>
@@ -85,7 +85,7 @@ export default function Features() {
                             </Card>
                             </div>
                             <div className='col-md-4 mb-4'>
-                            <Card className='h-100'>
+                            <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/enhancement.png" />
                                 <Card.Body>
                                     <Card.Title>Enhancement</Card.Title>

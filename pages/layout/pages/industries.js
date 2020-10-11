@@ -10,7 +10,7 @@ export default function Industries() {
                 </div>
                 <div className='row'>
                     <div className="tab-item-wrapper">
-                        <div className='d-flex flex-wrap justify-content-between py-5 align-items-end'>
+                        <div className='d-flex flex-wrap justify-content-between py-5'>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/education.svg" />
                                 <h5>Education & E-learning</h5>
