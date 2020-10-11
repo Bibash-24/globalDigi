@@ -21,36 +21,167 @@
     margin-right: 1rem;
 }
 .serviceCardImage {
+    margin-top: 20px;
     height: 260px;
     padding: 18px;
 }
 .gdCard1 {
     background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
 }
+.gdCard1:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
 .gdCard2 {
     background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
 }
+.gdCard2:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
 .gdCard3 {
     background-image: linear-gradient(rgb(180 231 214) 0%, rgb(244 204 240) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
 }
+.gdCard3:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
 .gdCard4 {
     background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard4:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard5 {
     background-image: linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard5:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard6 {
     background-image: linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard6:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard7 {
     background-image: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard7:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard8 {
     background-image: linear-gradient(rgb(246, 214, 214) 0%, rgb(246, 214, 214) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard8:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard9 {
     background-image: linear-gradient(rgb(186, 228, 244) 0%, rgb(186, 228, 244) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard9:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }
 .gdCard10 {
     background-image: linear-gradient(rgb(244, 220, 204) 0%, rgb(244, 220, 204) 100%);
+    opacity: 0.6;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.gdCard10:hover {
+    opacity: inherit;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
 }

@@ -12,20 +12,22 @@ export default function Industries() {
                     <div className="tab-item-wrapper">
                         <div className='d-flex flex-wrap justify-content-between py-5'>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
-                                <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/education.svg" />
-                                <h5>Education & E-learning</h5>
+                                <div className="animate">
+                                    <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/education.svg" />
+                                    <h5>Education & E-learning</h5>
+                                </div>
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/healthcare.svg" />
-                                <h5>Healthcare</h5>
+                                <h5>Healthcare Services</h5>
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/cart.svg" />
-                                <h5>Retail & E-commerce</h5>
+                                <h5>E-commerce & Retail</h5>
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/factory.svg" />
-                                <h5>ISVs & Product Companies</h5>
+                                <h5>Production Companies</h5>
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/income.svg" />
@@ -33,7 +35,7 @@ export default function Industries() {
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/marketing.svg" />
-                                <h5>Digital & Marketing Agencies</h5>
+                                <h5>Marketing Agencies</h5>
                             </div>
                             <div className={`p-4 text-center ${teamStyles.containBlock}`}>
                                 <img className={`mb-2 ${teamStyles.containBlockImg}`} src="img/industries/video-camera.svg" />

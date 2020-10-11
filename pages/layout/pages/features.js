@@ -1,5 +1,5 @@
 import DevelopmentStyles from '../../../styles/development.module.css'
-import { Card, CardGroup } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default function Features() {
     return (
@@ -9,7 +9,7 @@ export default function Features() {
                     <h2 className='text-center'>Key Features</h2>
                     <div className='row text-center'>
                         <div className='col-md-4 mb-4'>
-                        {/* <CardGroup> */}
+                            {/* <CardGroup> */}
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/client.png" />
                                 <Card.Body>
@@ -23,8 +23,8 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
-                            <div className='col-md-4 mb-4'>
+                        </div>
+                        <div className='col-md-4 mb-4'>
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/agile.png" />
                                 <Card.Body>
@@ -38,8 +38,8 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
-                            <div className='col-md-4 mb-4'>
+                        </div>
+                        <div className='col-md-4 mb-4'>
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/team.png" />
                                 <Card.Body>
@@ -53,8 +53,8 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
-                            <div className='col-md-4 mb-4'>
+                        </div>
+                        <div className='col-md-4 mb-4'>
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/support.png" />
                                 <Card.Body>
@@ -68,8 +68,8 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
-                            <div className='col-md-4 mb-4'>
+                        </div>
+                        <div className='col-md-4 mb-4'>
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/quality.png" />
                                 <Card.Body>
@@ -83,8 +83,8 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
-                            <div className='col-md-4 mb-4'>
+                        </div>
+                        <div className='col-md-4 mb-4'>
                             <Card className={`h-100 ${DevelopmentStyles.cardView}`}>
                                 <Card.Img className={DevelopmentStyles.cardImg} variant="top" src="img/features/enhancement.png" />
                                 <Card.Body>
@@ -98,7 +98,7 @@ export default function Features() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </div>
+                        </div>
                         {/* </CardGroup> */}
                     </div>
                 </div>

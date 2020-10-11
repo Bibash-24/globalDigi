@@ -48,13 +48,31 @@
   /* max-width: 20%; */
   /* padding: 0 4px; */
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
+  
   margin: 8px;
   border-radius: 6px;
 }
 .containBlockImg {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: 50px;
+  height: 50px;
+}
+.animate {
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+}
+.animate:hover{
+  opacity: inherit;
+  color: #b2beb5;
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
 }
 @media screen and (max-width: 800px) {
   .containBlock {
