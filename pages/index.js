@@ -7,7 +7,7 @@ import Client from './layout/pages/client';
 import Technology from './layout/pages/technology';
 import Features from './layout/pages/features';
 import Info from './layout/pages/info';
-import Careers from './layout/pages/careers';
+// import Careers from './layout/pages/careers';
 import AboutUs from './layout/pages/aboutUs';
 import Contact from './layout/pages/contact';
 import Footer from './layout/partials/footer';
@@ -41,7 +41,7 @@ export default function Home() {
         <AboutUs />
         <Contact />
 
-        <Careers />
+        {/* <Careers /> */}
         <Footer />
         <section className={styles.scrollTop} onClick={scrollTop}>
           <div>Top</div>

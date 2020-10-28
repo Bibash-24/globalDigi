@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import { Carousel } from "react-responsive-carousel";
 import AboutUsStyle from '../../../styles/aboutUs.module.css';
 
 export default class AboutUs extends Component {
     render() {
-        var settings = {
-            arrows: false,
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 500
-        };
         return (
             <section>
                 <div className={AboutUsStyle.aboutUsOverview}>
@@ -50,49 +44,11 @@ export default class AboutUs extends Component {
                         <div className={AboutUsStyle.aboutUsImg}>
                             <img alt="" src="/img/teams/3.jpg" />
                         </div>
-                        {/* <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/1.png"
-                                />
-                            </Card>
-                            <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/2.jpg"
-                                />
-                            </Card>
-                            <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/3.jpg"
-                                />
-                            </Card>
-                            <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/4.jpg"
-                                />
-                            </Card>
-                            <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/5.jpg"
-                                />
-                            </Card>
-                            <Card>
-                                <Card.Img
-                                    className={AboutUsStyle.aboutUsImg}
-                                    variant="top"
-                                    src="/img/teams/ceo.jpg"
-                                />
-                            </Card> */}
                     </Carousel>
+                    <div className={AboutUsStyle.aboutUsFoot}>
+                        <a href="#">BECOME PART OF OUR FAMILY</a>
+                        <Button href="#" size="lg" active >Join Us</Button>
+                    </div>
                 </div>
             </section>
         );
