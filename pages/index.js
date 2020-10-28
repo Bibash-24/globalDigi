@@ -37,9 +37,9 @@ export default function Home() {
         <Technology />
         <Features />
         <Industries />
+        <Client />
         <AboutUs />
         <Contact />
-        <Client />
 
         <Careers />
         <Footer />

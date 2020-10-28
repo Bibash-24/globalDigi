@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import '../styles/globals.css'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 // ..
 
 // function MyApp({ Component, pageProps }) {

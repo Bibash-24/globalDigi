@@ -1,38 +1,100 @@
-import AboutUsStyle from '../../../styles/aboutUs.module.css'
+import React, { Component } from 'react';
+import { Carousel } from "react-responsive-carousel";
+import AboutUsStyle from '../../../styles/aboutUs.module.css';
 
-export default function AboutUs() {
-    return (
-        <section>
-            <div className={AboutUsStyle.aboutUsOverview}>
-                <div className={AboutUsStyle.aboutUsWrapper}>
-                    <div className='container'>
-                        <div className='row mb-5'>
-                            <div className='col-md-4 align-self-start h-100'>
-                                <div className={AboutUsStyle.aboutUsDetails}>
-                                    <h2>About Us</h2>
-                                    <p>
-                                        Making adempt adipiscing elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua. Ut enim si senioe viall ad minim veniam.
-                                        Quis nostrud exercitation ullamco laboris villiam nuesrt vial nisi.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='col-md-4 align-self-center h-100' />
-                            <div className='col-md-4 align-self-end h-100' />
-                        </div>
-                        <div className='row'>
-                            <div className='col-md-8 h-100' />
-                            <div className='col-md-4 align-self-end h-100'>
-                                <div className={AboutUsStyle.aboutUsSubText}>
-                                    <h2>
-                                        Creating a World Class Solution for Business
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
+export default class AboutUs extends Component {
+    render() {
+        var settings = {
+            arrows: false,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 500
+        };
+        return (
+            <section>
+                <div className={AboutUsStyle.aboutUsOverview}>
+                    <div className={`mb-5 ${AboutUsStyle.aboutUsTitle}`}>
+                        <h2>Who we are</h2>
                     </div>
+                    <div className={AboutUsStyle.aboutUsContent}>
+                        <p>
+                            We are the team of developers, creators and artists, thinkers and doers and just like-minded people joined together by ideas and love to technologies. Our team is eager to come up with inspiring ideas and set out awesome challenges ahead of us
+                    </p>
+                        <p>
+                            We do the work we love to let our clients grow the business they love
+                    </p>
+                    </div>
+                    <Carousel autoPlay infiniteLoop showThumbs={false} showIndicators={false} showStatus={false} centerMode height="280px">
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/1.png" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/2.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/3.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/4.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/5.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/1.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/2.jpg" />
+                        </div>
+                        <div className={AboutUsStyle.aboutUsImg}>
+                            <img alt="" src="/img/teams/3.jpg" />
+                        </div>
+                        {/* <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/1.png"
+                                />
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/2.jpg"
+                                />
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/3.jpg"
+                                />
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/4.jpg"
+                                />
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/5.jpg"
+                                />
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    className={AboutUsStyle.aboutUsImg}
+                                    variant="top"
+                                    src="/img/teams/ceo.jpg"
+                                />
+                            </Card> */}
+                    </Carousel>
                 </div>
-            </div>
-        </section>
-    );
-};
+            </section>
+        );
+    }
+}

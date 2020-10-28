@@ -1,5 +1,6 @@
 .ClientOverview {
     margin: 80px 0px 40px;
+    background-color: #F7F7F7;
 }
 .clientTitle {
 	text-align: center;
@@ -12,6 +13,34 @@
     margin-left: 70px;
     margin-bottom: 30px;
 }
+
+.clientWrapper_span {
+    height: 20px;
+    width: 20px;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.clientWrapper_span::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #413f4d;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.clientWrapper_span:hover::before{
+    background-color: #4990e2;
+}
+
+ .activeDashDot{
+    background-color: #4990e2;
+}
+
 .clientImgFrame {
     width: 80px;
     height: 80px;
@@ -45,7 +74,7 @@
     list-style-type: none;
 }
 .ClientBanner {
-    background-image: url('/img/bg-images/clients.jpg');
+    background-image: url('/img/bg-images/clients.jpg') !important;
     position: absolute;
     background-position: center;
     top: 0;
