@@ -5,6 +5,7 @@ import AboutUsStyle from '../../../styles/aboutUs.module.css';
 
 export default class AboutUs extends Component {
     render() {
+
         return (
             <section>
                 <div className={AboutUsStyle.aboutUsOverview}>
@@ -19,6 +20,7 @@ export default class AboutUs extends Component {
                             We do the work we love to let our clients grow the business they love
                     </p>
                     </div>
+                   
                     <Carousel autoPlay infiniteLoop showThumbs={false} showIndicators={false} showStatus={false} centerMode height="280px">
                         <div className={AboutUsStyle.aboutUsImg}>
                             <img alt="" src="/img/teams/1.png" />

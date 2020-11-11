@@ -10,8 +10,8 @@
     padding: 24px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 25px 0px;
     border-radius: 12px;
-    margin-left: 70px;
-    margin-bottom: 30px;
+    /* margin-left: 70px; */
+    /* margin-bottom: 30px; */
 }
 
 .clientWrapper_span {
@@ -37,9 +37,6 @@
     background-color: #4990e2;
 }
 
- .activeDashDot{
-    background-color: #4990e2;
-}
 
 .clientImgFrame {
     width: 80px;
@@ -60,7 +57,7 @@
     display: inline-block!important;
     background-color: #b3af8f;
     position: absolute;
-    left: 60px;
+    left: 10px;
     top: -15px;
     -webkit-mask-image: url('/quotation.png');
     z-index: 1;
