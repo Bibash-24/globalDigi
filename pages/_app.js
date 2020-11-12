@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import '../styles/globals.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'react-vertical-timeline-component/style.min.css';
 
 // ..
 

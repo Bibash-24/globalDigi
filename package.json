@@ -24,6 +24,7 @@
     "react-owl-carousel": "^2.3.1",
     "react-responsive-carousel": "^3.2.10",
     "react-slick": "^0.27.11",
+    "react-vertical-timeline-component": "^3.3.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
