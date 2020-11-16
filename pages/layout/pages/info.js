@@ -6,10 +6,16 @@ export default function Info() {
             <div className={InfoStyles.infoOverview}>
                 <div className='container'>
                     <div className={`mb-5 ${InfoStyles.infoTitle}`}>
-                        <h2>We Simplify Software Development Process</h2>
+                        <h2>Our Software Development Process</h2>
                     </div>
+                    {/* <div className={InfoStyles.infoContent}> */}
+                        <p className={InfoStyles.infoContent}>
+                        Global Digitronix is a <em><strong>software development company</strong></em> for small & medium business, enterprise, startups and agencies. We follow an agile software development approach for all types of development projects. At Global, our team of software developers uses agile Scrum and agile Kanban to ensure on-time delivery and agility for projects.
+                        </p>
+                    {/* </div> */}
                     <div className='row justify-content-center'>
-                        <div className={`col-md-3 ${InfoStyles.infoRow}`}>
+                    <img src="img/process.svg" />
+                        {/* <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
                                 <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="img/icons/discovericon.svg" /></div>
                                 <h4>Discover</h4>
@@ -44,76 +50,9 @@ export default function Info() {
                                     We take an iterative approach to both our work and our practice, always looking for ways to improve what we do.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-                <div className={InfoStyles.infoRow}>
-
-                </div>
-                {/* <div className='d-flex justify-content-center'>
-                    <div className='container row'>
-                        <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={InfoStyles.content}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={InfoStyles.contentIcon}>
-                                            <img src='/icons/discovericon.svg' />
-                                        </div>
-                                    </div>
-                                    <center><h2 className='mb-0'>Discover</h2></center>
-                                    <Card.Text>
-                                        We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={InfoStyles.content}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={InfoStyles.contentIcon}>
-                                            <img src='/icons/discovericon.svg' />
-                                        </div>
-                                    </div>
-                                    <center><h2 className='mb-0'>Discover</h2></center>
-                                    <Card.Text>
-                                        We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={InfoStyles.content}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={InfoStyles.contentIcon}>
-                                            <img src='/icons/discovericon.svg' />
-                                        </div>
-                                    </div>
-                                    <center><h2 className='mb-0'>Discover</h2></center>
-                                    <Card.Text>
-                                        We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        <div className='col-12 col-sm-6 col-md-4'>
-                            <Card className={InfoStyles.content}>
-                                <Card.Body>
-                                    <div className='d-flex align-item-center mb-3'>
-                                        <div className={InfoStyles.contentIcon}>
-                                            <img src='/icons/discovericon.svg' />
-                                        </div>
-                                    </div>
-                                    <center><h2 className='mb-0'>Discover</h2></center>
-                                    <Card.Text>
-                                        We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </section>
     );

@@ -16,7 +16,7 @@ export default class Services extends Component {
         return (
             <section className={`w-100 gd-services-overview ${serviceStyles.serviceBlock}`}>
                 <div>
-                    <div className={serviceStyles.serviceTitle}>
+                    <div className={serviceStyles.serviceTitle} data-aos="zoom-in">
                         <h2>Services</h2>
                     </div>
                     <div className='serviceSlider-carousel'>

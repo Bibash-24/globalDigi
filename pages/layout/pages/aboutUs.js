@@ -12,14 +12,12 @@ export default class AboutUs extends Component {
                     <div className={`mb-5 ${AboutUsStyle.aboutUsTitle}`}>
                         <h2>Who we are</h2>
                     </div>
-                    <div className={AboutUsStyle.aboutUsContent}>
-                        <p>
-                            We are the team of developers, creators and artists, thinkers and doers and just like-minded people joined together by ideas and love to technologies. Our team is eager to come up with inspiring ideas and set out awesome challenges ahead of us
-                    </p>
-                        <p>
-                            We do the work we love to let our clients grow the business they love
-                    </p>
-                    </div>
+                        <p className={AboutUsStyle.aboutUsContent}>
+                            We are the team of developers, creators and artists, thinkers and doers and just like-minded people joined together by ideas and love to technologies. Our team is eager to come up with inspiring ideas and set out awesome challenges ahead of us.
+                        {/* </p>
+                        <p className={AboutUsStyle.aboutUsContent}> */}<br/>
+                            We do the work we love to let our clients grow the business they love.
+                        </p>
                    
                     <Carousel autoPlay infiniteLoop showThumbs={false} showIndicators={false} showStatus={false} centerMode height="280px">
                         <div className={AboutUsStyle.aboutUsImg}>

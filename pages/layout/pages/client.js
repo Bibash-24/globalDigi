@@ -33,33 +33,6 @@ const Client = () => {
         }
     }
 
-    const say = {
-        0: {
-            say_name: "Awesome Client",
-            say_company: "ABC Co.",
-            say_quote: "Lorem ipsum dolor sit amet, Ut enim ad minim veniam.",
-            say_img: "/img/teams/ceo.jpg",
-        },
-        1: {
-            say_name: "Super Client",
-            say_company: "XYZ Co.",
-            say_quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            say_img: '/img/testimonial/user1.jpg',
-        },
-        2: {
-            say_name: "Sexy Client",
-            say_company: "LMN Co.",
-            say_quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            say_img: '/img/testimonial/user2.jpg',
-        },
-        3: {
-            say_name: "Hyper Client",
-            say_company: "PQR Co.",
-            say_quote: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            say_img: '/img/testimonial/user3.jpg',
-        }
-    }
-
     const [current, setCurrent] = useState(quotes[0]);
     const [active, setActive] = useState(0);
     const handleSetClick = (e) => {

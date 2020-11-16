@@ -8,6 +8,16 @@
     text-align: center;
 	margin-bottom: 40px;
 }
+.infoContent {
+    max-width: 950px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .95px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
 .infoImageWrapper {
     background-color: gray;
     width: 100%;

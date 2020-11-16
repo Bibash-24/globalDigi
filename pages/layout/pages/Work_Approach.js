@@ -8,15 +8,15 @@ export default function WorkApproach() {
                     <div className={productStyles.productOverviewBlockWrapper}>
                         <div>
                             <div className={productStyles.productTitle}>
-                                <h2>Work Approach</h2>
-                                <strong>We work to deliver profitability in your business – with effective communication, consulting and interactive solutions. Following an Agile Work Approach, we make sure you get the ideal solutions at minimum expenses.</strong>
+                                <h2 data-aos="zoom-in">Work Approach</h2>
+                                <strong data-aos="zoom-out">We work to deliver profitability in your business – with effective communication, consulting and interactive solutions. Following an Agile Work Approach, we make sure you get the ideal solutions at minimum expenses.</strong>
                             </div>
                             <div className="row mx-2">
                                 <div className={`col-md-4 text-center ${productStyles.productCol}`}>
                                     <div
                                         data-aos="fade-right"
                                         data-aos-duration="1000"
-                                        data-aos-once="true"
+                                        // data-aos-once="true"
                                     >
                                         {/* <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> */}
                                         <div className={productStyles.workApproachImg}>
@@ -33,7 +33,7 @@ export default function WorkApproach() {
                                     <div
                                         data-aos="fade-down"
                                         data-aos-duration="1000"
-                                        data-aos-once="true"
+                                        // data-aos-once="true"
                                     >
                                         {/* <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> */}
                                         <div className={productStyles.workApproachImg}>
@@ -50,7 +50,7 @@ export default function WorkApproach() {
                                     <div
                                         data-aos="fade-left"
                                         data-aos-duration="1000"
-                                        data-aos-once="true"
+                                        // data-aos-once="true"
                                     >
                                         {/* <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> */}
                                         <div className={productStyles.workApproachImg}>
