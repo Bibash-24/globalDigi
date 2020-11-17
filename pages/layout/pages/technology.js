@@ -8,7 +8,7 @@ export default function Technology() {
         <section className={`w-100 gd-technology-overview gd-services-overview ${technologyStyles.technologyBlockOverview}`}>
             <div className={technologyStyles.technologyBlock}>
                 <div className={`mb-5 ${technologyStyles.technologyTitle}`}>
-                    <h2>Technologies we work with</h2>
+                    <h2 data-aos="zoom-in">Technologies we work with</h2>
                 </div>
 
                 <VerticalTimeline className={technologyStyles.cardWrapper}>

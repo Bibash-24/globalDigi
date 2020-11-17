@@ -17,7 +17,7 @@ export default function Contact() {
                                         <h5 className={ContactStyles.connectTitle}>Job Openings</h5>
                                         <p className={ContactStyles.connectText}>Want to be part of our growing team?</p>
                                         <a href="#" alt="View More">
-                                            <span>View More <i class="fa fa-arrow-right"></i></span>
+                                            <span>View More <i className="fa fa-arrow-right"></i></span>
                                         </a>
                                     </div>
                                 </div>

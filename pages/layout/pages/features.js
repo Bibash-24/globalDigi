@@ -6,7 +6,7 @@ export default function Features() {
         <section>
             <div className={DevelopmentStyles.developmentOverview}>
                 <div className={`container ${DevelopmentStyles.developmentWrapper}`}>
-                    <h2 className='text-center'>Key Features</h2>
+                    <h2 className='text-center' data-aos="zoom-in">Key Features</h2>
                     <div className='row text-center'>
                         <div className='col-md-4 mb-4'>
                             {/* <CardGroup> */}

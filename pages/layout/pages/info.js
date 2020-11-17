@@ -6,15 +6,15 @@ export default function Info() {
             <div className={InfoStyles.infoOverview}>
                 <div className='container'>
                     <div className={`mb-5 ${InfoStyles.infoTitle}`}>
-                        <h2>Our Software Development Process</h2>
+                        <h2 data-aos="zoom-in">Our Software Development Process</h2>
                     </div>
                     {/* <div className={InfoStyles.infoContent}> */}
-                        <p className={InfoStyles.infoContent}>
+                        <p className={InfoStyles.infoContent} data-aos="zoom-out">
                         Global Digitronix is a <em><strong>software development company</strong></em> for small & medium business, enterprise, startups and agencies. We follow an agile software development approach for all types of development projects. At Global, our team of software developers uses agile Scrum and agile Kanban to ensure on-time delivery and agility for projects.
                         </p>
                     {/* </div> */}
                     <div className='row justify-content-center'>
-                    <img src="img/process.svg" />
+                    <img src="img/process.svg"  data-aos="fade-down"/>
                         {/* <div className={`col-md-3 ${InfoStyles.infoRow}`}>
                             <div className='px-4'>
                                 <div className={`mb-5 ${InfoStyles.infoImgIcon}`}><img src="img/icons/discovericon.svg" /></div>

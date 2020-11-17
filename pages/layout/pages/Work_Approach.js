@@ -9,7 +9,7 @@ export default function WorkApproach() {
                         <div>
                             <div className={productStyles.productTitle}>
                                 <h2 data-aos="zoom-in">Work Approach</h2>
-                                <strong data-aos="zoom-out">We work to deliver profitability in your business – with effective communication, consulting and interactive solutions. Following an Agile Work Approach, we make sure you get the ideal solutions at minimum expenses.</strong>
+                                {/* <strong data-aos="zoom-out">We work to deliver profitability in your business – with effective communication, consulting and interactive solutions. Following an Agile Work Approach, we make sure you get the ideal solutions at minimum expenses.</strong> */}
                             </div>
                             <div className="row mx-2">
                                 <div className={`col-md-4 text-center ${productStyles.productCol}`}>
