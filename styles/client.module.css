@@ -37,6 +37,15 @@
     background-color: #4990e2;
 }
 
+.testimonial_1_Img {
+	width: 10px;
+	display: block;
+	height: 291px;
+	margin: 40px 10px 20px 40px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
 .clientImgFrame {
     width: 80px;
