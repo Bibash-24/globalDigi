@@ -61,7 +61,7 @@
 .animate {
   -webkit-filter: grayscale(200%) ;
   filter: grayscale(200%) ;
-  opacity: 0.1;
+  opacity: 0.8;
 }
 .animate:hover{
   opacity: inherit;

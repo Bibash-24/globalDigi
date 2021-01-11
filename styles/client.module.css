@@ -121,3 +121,9 @@
 .customerSliderBlock {
     padding: 40px 80px 0px;
 }
+.clientVectorImgFrame {
+    width: 250px;
+}
+.clientVectorImg {
+    width: 100%;
+}

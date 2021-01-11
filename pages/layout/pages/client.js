@@ -51,11 +51,17 @@ const Client = () => {
 
                     <div className='row my-5'>
                         <div className='col-md-6'>
-                            <div className={clientStyles.clientImgFrame}>
-                                <img src="img/testimonial-1.png" />
-                            </div>
-                            <div className={clientStyles.clientImgFrame}>
-                                <img src="img/testimonial-2.png" />
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <div className={clientStyles.clientVectorImgFrame}>
+                                        <img className={clientStyles.clientVectorImg} src="img/testimonial-1.png" />
+                                    </div>
+                                </div>
+                                <div className='col-md-6'>
+                                    <div className={clientStyles.clientVectorImgFrame}>
+                                        <img className={clientStyles.clientVectorImg} src="img/testimonial-2.png" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className='col-md-6'>

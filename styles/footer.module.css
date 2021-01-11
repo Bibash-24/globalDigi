@@ -7,24 +7,14 @@
     width: 100%;
 }
 
+.footerList {
+    display: flex;
+    margin-bottom: 0;
+}
 .footerListWrapper {
-    padding: 120px 0px 80px;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
 }
-.footerContactWrapper {
-    margin-top: 8rem;
-}
-.footerContactForm {
-    margin-right: 7rem;
-    padding: 22px;
-    border-radius: 8px;
-    margin-top: 2rem;
-    width: 34rem;
-}
-.footerListWrapper ul li {
-    margin: 12px 0px;
-}
-.footerListWrapper .listTItle {
-    margin-bottom: 38px;
-    font-weight: 800;
-    font-size: 18px;
+.footerList li {
+    margin-right: 16px;
 }
